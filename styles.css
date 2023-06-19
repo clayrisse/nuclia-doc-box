@@ -24,10 +24,15 @@ html {
     justify-content: center;
   
   }
+
+  .postman-wrapper{
+    text-align: center;
+  }
   
   footer {
     font-size: 12px;
     position: fixed;
+    bottom: 0;
     background-color: #fff;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #aaa;
