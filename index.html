@@ -8,9 +8,29 @@
     </head>
     <body>
         <header>
-            <h1>Testing Nuclia's Website, Docs & Videos</h1>
+            <h1>Testing Nuclia's Site, Docs & Videos</h1>
         </header>
         <main>
+            <div class="big-widget">
+
+                <div class="widget">     
+                    <nuclia-search-bar
+                    knowledgebox="0d8186e2-b7dd-47ea-bef1-f4f74b88e506"
+                    zone="europe-1"
+                    features="autofilter,answers,filter,navigateToFile,navigateToLink,onlyAnswers,permalink,relations,suggestLabels,suggestions" 
+                    ></nuclia-search-bar>
+                </div>           
+            </div>
+            <br>
+            <div class="big-search-results">
+                <nuclia-search-results></nuclia-search-results>
+            </div>
+        </main>
+
+        <footer>
+            <div class="">
+                <p>* Super original design by clayrisse xD and try also our Postman collection to test the API</p>
+            </div>
             <div class="postman-wrapper">
                 <div class="postman-run-button"
                     data-postman-action="collection/fork"
@@ -19,20 +39,6 @@
                     data-postman-collection-url="entityId=27573368-42015c7d-5ee8-4c05-b1c4-9cdd1ae8ff44&entityType=collection&workspaceId=0a44b168-13f8-4602-bbc0-ad7e44677408">
                 </div>
             </div>
-            <br>
-            <div class="widget">     
-                <nuclia-search-bar
-                knowledgebox="0d8186e2-b7dd-47ea-bef1-f4f74b88e506"
-                zone="europe-1"
-                features="autofilter,answers,filter,navigateToFile,navigateToLink,onlyAnswers,permalink,relations,suggestLabels,suggestions" 
-                ></nuclia-search-bar>
-            </div>           
-            <br>
-            <nuclia-search-results></nuclia-search-results>
-        </main>
-
-        <footer class="">
-            <p>* Super original design by clayrisse xD</p>
             
         </footer>            
         <script type="text/javascript">

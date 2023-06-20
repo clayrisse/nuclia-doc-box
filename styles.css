@@ -1,42 +1,54 @@
 html {
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #444;
     width: 80%;
     max-width: 1400px;
   }
   
   header {
     margin: 50px 0;
-    background-color: #aaa;
+    /* background-color: #aaa; */
     /* background-color: #FF006A; */
   }
   
   h1 {
     text-align: center;
-    color: #fff;
+    color: #eee;
+    color: #eee;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 50px;
+    font-size: 45px;
   }
   
-  .widget {
+  .big-widget {
+    display: flex;
+    align-items: center;
     margin: 20px auto;
     display: flex;
     justify-content: center;
-  
+  }
+  .widget {
+    padding: 15px; 
+    background-color: #eee;
+    border-radius: 10px;
+    
+  }
+  .big-search-results {
+    background-color: #eee;
+    border-radius: 20px;
   }
 
   .postman-wrapper{
     text-align: center;
+    margin-left: 20px;
   }
   
   footer {
     font-size: 12px;
-    position: fixed;
-    bottom: 0;
-    background-color: #fff;
+    display: flex;
+    position: absolute;
+    bottom: 10px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #aaa;
-    bottom: 0;
+    color: #888;
     height: 50px;
     padding: 10px 0 5px;
     
