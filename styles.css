@@ -35,6 +35,7 @@ html {
   .big-search-results {
     background-color: #eee;
     border-radius: 20px;
+    margin-bottom: 60px;
   }
 
   .postman-wrapper{
@@ -47,13 +48,17 @@ html {
   }
   
   footer {
+    
+    background-color: #444;
     font-size: 12px;
     display: flex;
-    position: absolute;
-    bottom: 10px;
+    position: sticky;
+    bottom: 0px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #888;
-    height: 50px;
+    height: 40px;
+    /* padding-left: 20px; */
+    margin: -20px;
     padding: 10px 0 5px;
     
 }
